@@ -7,8 +7,11 @@ export default function Home() {
       <main>
         <Header title="Next.js Toolbox" />
         <hr />
-        <p className="description" style={{ color: 'red' }}>
-          Miluji te
+        <p className="description" style={{ color: 'green' }}>
+          Koupim ti Mustanga
+        </p>
+        <p className="description" style={{ color: 'blue', fontSize: '6px' }}>
+          Na dalkove ovladani
         </p>
       </main>
     </div>
