@@ -35,6 +35,7 @@ export default function Home() {
           >
             Drahá Verunko, chtěl bych ti sdělit, že jsi překrásná a milá a snaživá holka, kterou bezmezně miluji. Vždy při tobě budu stát a vždy ti se vším pomůžu, na život od teď nejsi sama. A teď mi pochval mou aplikaci.
           </p>
+          <p>Hello from android</p>
         )}
       </main>
     </div>
