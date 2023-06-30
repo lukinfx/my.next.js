@@ -10,10 +10,7 @@ export default function Home() {
         <p className="description">
           Takto ti mohu ukazovat moje pokusy
         </p>
-        <FeedbackForm />
-        <JokeBlock />
       </main>
-      <Footer />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\cypress",
+    "\\cypress\\e2e",
+    "\\netlify",
+    "\\netlify\\functions",
+    "\\pages",
+    "\\public",
+    "\\styles"
+  ],
+  "SelectedNode": "\\cypress",
+  "PreviewInSolutionExplorer": false
+}
