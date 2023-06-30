@@ -7,8 +7,8 @@ export default function Home() {
       <main>
         <Header title="Next.js Toolbox" />
         <hr />
-        <p className="description">
-          Takto ti mohu ukazovat moje pokusy
+        <p className="description" style={{ color: 'red' }}>
+          Miluji te
         </p>
       </main>
     </div>
