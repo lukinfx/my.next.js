@@ -10,7 +10,8 @@ function IndexPage({ allPosts }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('http://localhost:3000/api/posts');
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  const res = await fetch(apiUrl);
   const allPosts = await res.json();
 
   return {
