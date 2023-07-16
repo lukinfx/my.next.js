@@ -9,14 +9,14 @@ function IndexPage({ allPosts }) {
   );
 }
 
-export async function getServerSideProps() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const res = await fetch(apiUrl);
-  const allPosts = await res.json();
+// export async function getServerSideProps() {
+//   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+//   const res = await fetch(apiUrl);
+//   const allPosts = await res.json();
 
-  return {
-    props: { allPosts },
-  };
-}
+//   return {
+//     props: { allPosts },
+//   };
+// }
 
 export default IndexPage;
